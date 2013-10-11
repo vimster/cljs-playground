@@ -1,5 +1,8 @@
 (ns hello-wolrd.core)
 
+(defmacro log [&more]
+  `(.log js/console (str ~@more)))
+
 (defn foo
   "I don't do a whole lot."
   [x]
