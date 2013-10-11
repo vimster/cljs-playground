@@ -1,0 +1,2 @@
+cmdhistory=["(macroexpand `(log \\"hallo\\"))" "(macroexpand (log \\"hallo\\"))" "(macroexpand `(log \\"hallo\\"))" "(macroexpand `(log \\"hallo\\" \\"huhu\\"))"]
+eclipse.preferences.version=1

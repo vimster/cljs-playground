@@ -1,6 +1,6 @@
 (ns hello-wolrd.core)
 
-(defmacro log [&more]
+(defmacro log [& more]
   `(.log js/console (str ~@more)))
 
 (defn foo
