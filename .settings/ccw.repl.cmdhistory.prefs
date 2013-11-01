@@ -1,2 +1,2 @@
-cmdhistory=["(macroexpand `(log \\"hallo\\"))" "(macroexpand (log \\"hallo\\"))" "(macroexpand `(log \\"hallo\\"))" "(macroexpand `(log \\"hallo\\" \\"huhu\\"))"]
+cmdhistory=["(macroexpand `(log \\"hallo\\"))" "(macroexpand (log \\"hallo\\"))" "(macroexpand `(log \\"hallo\\"))" "(macroexpand `(log \\"hallo\\" \\"huhu\\"))" "(min-menues 100000)" "(min-menues 32768)" "(min-menues 2000)"]
 eclipse.preferences.version=1
