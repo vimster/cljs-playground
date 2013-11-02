@@ -13,7 +13,18 @@
         rest (mod price max-menue-price)]
     (+ (count-menues rest) m)))
 
+; second approach
+(defn count-ones [n]
+  (count (filter #(= % \1) (seq (Integer/toString n 2)))))
+
+(defn menus [price]
+  (if (> price 2048)
+    (+ (quot price 2048) (count-ones (rem price 2048)))
+    (count-ones price)))
+
+
 (defn -main []
-  (let [test-cases (Integer. (read-line))]
-    (dotimes [n test-cases]
-      (println (min-menues (Integer. (read-line)))))))
+  (loop [test-cases (read-string (read-line))]
+    (when (> test-cases 0)
+      (println (menus (read-string (read-line))))
+      (recur (dec test-cases)))))
