@@ -1,5 +1,6 @@
 (ns cljs-playground.probability-of-winning)
 
+; Use of theorem of total Probabilty 
 (defn prob [n]
   (let [x (nth n 0)
         y (nth n 1)]
