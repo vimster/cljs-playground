@@ -5,7 +5,7 @@
     n
     (dec n)))
   
-  (defn -main []
+(defn -main []
   (let [test-cases (Integer. (read-line))]
     (dotimes [n test-cases]
       (println (max-chars (Integer. (read-line)))))))
